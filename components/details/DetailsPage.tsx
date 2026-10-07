@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useDetailsAnimations } from "@/components/animations/useCoverAnimations";
 import { CopyAliasButton } from "@/components/details/CopyAliasButton";
+import { RsvpButton } from "@/components/RsvpButton";
 import { donation, eventDetails } from "@/lib/invitation";
 
 const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(eventDetails.mapsQuery)}`;
@@ -90,7 +91,8 @@ export function DetailsPage() {
         </article>
       </div>
 
-      <div className="mt-10 text-center">
+      <div className="mt-10 flex flex-col items-center gap-6 text-center">
+        <RsvpButton />
         <Link
           href="/"
           className="inline-flex min-h-11 items-center justify-center rounded-sm border border-white/30 px-6 py-2 text-sm uppercase tracking-wider text-white/90 transition hover:border-[var(--gold)] hover:text-[var(--gold-light)]"

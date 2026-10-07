@@ -2,6 +2,7 @@
 
 import { useCoverAnimations } from "@/components/animations/useCoverAnimations";
 import { MarqueeButton } from "@/components/cover/MarqueeButton";
+import { RsvpButton } from "@/components/RsvpButton";
 import { PortraitSpotlight } from "@/components/cover/PortraitSpotlight";
 import { TrackList } from "@/components/cover/TrackList";
 import { VinylDisc } from "@/components/cover/VinylDisc";
@@ -86,9 +87,12 @@ export function CoverPage() {
             llena de amor, alegría, familia, amistad y grandes momentos. ¡Te
             espero! ♡
           </p>
-          <p className="text-xs uppercase tracking-[0.18em] text-[var(--gold-light)] sm:text-sm">
-            Confirmá tu asistencia | Traé ganas de divertirte | ¡Te espero! ♡
-          </p>
+          <div data-reveal className="flex flex-col items-center gap-4 pt-1">
+            <RsvpButton />
+            <p className="text-xs uppercase tracking-[0.18em] text-[var(--gold-light)] sm:text-sm">
+              Traé ganas de divertirte | ¡Te espero! ♡
+            </p>
+          </div>
         </footer>
       </div>
     </main>

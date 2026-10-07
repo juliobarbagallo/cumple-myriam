@@ -31,3 +31,6 @@ export const siteMeta = {
   description:
     "Invitación exclusiva a la fiesta de cumpleaños de Myriam. Una vida llena de canciones… ¡y lo mejor aún está por venir!",
 } as const;
+
+export const rsvpFormUrl =
+  "https://docs.google.com/forms/d/e/1FAIpQLSeyKpLwzn_VG9bCdUBAI3zSvwAsSfvHQzikImokw0t_EdvB5w/viewform" as const;
