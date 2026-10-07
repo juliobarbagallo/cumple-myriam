@@ -81,8 +81,8 @@ export function DetailsPage() {
             Regalo solidario
           </h2>
           <p className="mt-3 leading-relaxed text-white/90">{donation.message}</p>
-          <p className="mt-2 text-sm text-white/70">{donation.organization}</p>
-          <p className="mt-4 rounded-sm bg-[var(--velvet-deep)] px-4 py-3 font-mono text-lg tracking-wide text-[var(--gold-light)]">
+          <p className="mt-4 text-white/90">{donation.aliasIntro}</p>
+          <p className="mt-2 rounded-sm bg-[var(--velvet-deep)] px-4 py-3 font-mono text-lg tracking-wide text-[var(--gold-light)]">
             {donation.alias}
           </p>
           <div className="mt-4">

@@ -21,9 +21,9 @@ export const eventDetails = {
 
 export const donation = {
   alias: "AACCC.RED.SOLIDARIA",
-  organization: "Red solidaria copello",
   message:
-    "No hace falta que me regales nada, pero si querés hacerme un regalo, se va a donar todo a Red solidaria copello. Podés hacerlo al siguiente alias:",
+    "Si querés hacerme un regalo, podés hacer una donación a la Red solidaria Copello, quienes lo destinarán a un fin benéfico.",
+  aliasIntro: "Podés hacerlo al siguiente alias:",
 } as const;
 
 export const siteMeta = {
