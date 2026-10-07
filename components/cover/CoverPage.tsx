@@ -68,8 +68,11 @@ export function CoverPage() {
           </section>
         </div>
 
-        <section className="album-cover-carpet relative z-30 mx-auto mt-8 flex max-w-2xl flex-col items-center gap-4 px-2 pt-8">
+        <section className="album-cover-carpet relative z-30 mx-auto mt-8 flex max-w-2xl flex-col items-center gap-5 px-2 pt-8">
           <MarqueeButton />
+          <div data-reveal className="relative z-20 flex w-full justify-center">
+            <RsvpButton />
+          </div>
           <div
             data-reveal
             className="gold-border w-full max-w-lg rounded-sm bg-black/80 px-4 py-2.5 text-center text-xs uppercase tracking-wider text-[var(--gold-light)] sm:text-sm"
@@ -88,7 +91,6 @@ export function CoverPage() {
             espero! ♡
           </p>
           <div data-reveal className="flex flex-col items-center gap-4 pt-1">
-            <RsvpButton />
             <p className="text-xs uppercase tracking-[0.18em] text-[var(--gold-light)] sm:text-sm">
               Traé ganas de divertirte | ¡Te espero! ♡
             </p>
