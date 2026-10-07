@@ -70,7 +70,7 @@ export function CoverPage() {
 
         <section className="album-cover-carpet relative z-30 mx-auto mt-8 flex max-w-2xl flex-col items-center gap-5 px-2 pt-8">
           <MarqueeButton />
-          <div data-reveal className="relative z-20 flex w-full justify-center">
+          <div className="relative z-20 flex w-full justify-center">
             <RsvpButton />
           </div>
           <div
