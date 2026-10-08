@@ -78,7 +78,7 @@ export function DetailsPage() {
           className="gold-border rounded-sm bg-black/70 p-5 backdrop-blur-sm"
         >
           <h2 className="font-[family-name:var(--font-display)] text-sm font-bold uppercase tracking-[0.2em] text-[var(--gold)]">
-            Regalo solidario
+            Regalo
           </h2>
           <p className="mt-3 leading-relaxed text-white/90">{donation.message}</p>
           <p className="mt-4 text-white/90">{donation.aliasIntro}</p>
